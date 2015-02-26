@@ -1,0 +1,8 @@
+name: HardcoreSurvivalListener
+version: 1.2
+main: me.becja10.HardcoreSurvivalListener.Main
+softdepend: [GriefPrevention]
+description: Add on for HardcoreSurvival plugin to announce player deaths on seperate servers
+commands:
+  hardcoresurvivalannounce:
+    permission: i.dont.even.care.cuz.no.one.will.have.this 
