@@ -37,8 +37,8 @@ public class Main extends JavaPlugin implements Listener
 		if(args.length < 1) return true; //something went wrong
 		String message = ""+ ChatColor.RED;
 		for(int i = 0; i < args.length; i++)
-			message += args[i];
-		message += " and has failed the hardcore challenge.";
+			message += args[i] + " ";
+		message += "and has failed the hardcore challenge.";
 		plugin.getServer().broadcastMessage(message);
 		logger.info("[HardCoreListener] " + message);
 		return true;
