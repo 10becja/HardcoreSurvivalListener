@@ -1,6 +1,6 @@
 name: HardcoreSurvivalListener
 version: 1.2
-main: me.becja10.HardcoreSurvivalListener.Main
+main: me.becja10.HardcoreSurvivalListener.HardcoreSurvivalListener
 softdepend: [GriefPrevention]
 description: Add on for HardcoreSurvival plugin to announce player deaths on seperate servers
 commands:

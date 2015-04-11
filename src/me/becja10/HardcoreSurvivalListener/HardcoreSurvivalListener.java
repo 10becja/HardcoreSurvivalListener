@@ -10,10 +10,10 @@ import org.bukkit.event.Listener;
 import org.bukkit.plugin.PluginDescriptionFile;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Main extends JavaPlugin implements Listener
+public class HardcoreSurvivalListener extends JavaPlugin implements Listener
 {
 	public final Logger logger = Logger.getLogger("Minecraft");
-	private static Main plugin;
+	private static HardcoreSurvivalListener plugin;
 		
 	@Override
 	public void onDisable()
